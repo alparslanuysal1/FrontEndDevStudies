@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="ep">E-Posta</label></td>
+                <td><input type="email" name="eposta" id="ep" placeholder="info@example.com"></td>
+            </tr>
+            <tr>
+                <td><label for="sf">Sifre</label></td>
+                <td><input minlength="3" maxlength="10" type="password" name="sifre" id="sf"></td>
+            </tr>
+            <tr>
+                <td><label for="gk">Guvenlik Kodu</label></td>
+                <td><input type="number" min="100" max="10000" name="kod" id="gk" value="12345" readonly></td> <!-- value=varsayilan deger atar. readonly degistirilemez yapar -->
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="user" id="usr">
+                    <label for="usr">Kullanici sozlesmesini kabul ediyorum</label> <br>
+
+
+                    <input type="checkbox" name="sales" id="sl" />
+                    <label for="sl">Satış sözleşmesini okudum</label> <br>
+
+                    <input type="radio" name="gender" id="genderM">
+                    <label for="genderM">Erkek</label>
+
+                    <input type="radio" name="gender" id="genderF">
+                    <label for="genderF">Kadin</label> <br>
+
+
+                    <input type="file" name="avatar"> <br>
+
+                    <input type="color" name="renk"> <br>
+
+                    <input type="range" name="salary"> <br>
+
+                    <input type="date" name="Dogum"> <br>
+
+                    <input type="time" name="departureTime"> <br>
+                    
+                    <input type="datetime-local" name="dt"> <br>
+
+                    <input type="month" name="mn"> <br>
+
+                    <input type="week" name="wk" id=""> <br>
+
+                    <select name="city" id="">
+                        <option value="" disabled selected>Seçiniz</option>
+                        <option value="34">Istanbul</option>
+                        <option value="35">izmir</option>
+                        <option value="06">ankara</option>
+                        <option value="01">adana</option>
+                        <option value="45">Manisa</option>
+                        <option value="09">aydin</option>
+                    </select>
+                   
+                    <select name="country" size="5" multiple>
+                        <option value="01">Türkiye</option>
+                        <option value="02">Germany</option>
+                        <option value="03">France</option>
+                      </select> <br>
+
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                    <input type="button" value="Custom">
+                    <button type="submit" disabled>Kaydet</button><!-- disabled kullanilamaz yapar. formu kurallara uygun doldurunca tiklanabilir yapmak icin yazariz -->
+                    <button type="reset">Temizle</button>
+                </td>
+            </tr>
+        </table>  
+    </form>
+</body>
+</html>
