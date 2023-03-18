@@ -1,0 +1,41 @@
+*{
+    font-size:1.3rem;
+    color:blue;
+
+}
+
+.highlight{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+h1.center{ /* class ismi h1 olan taglar center'dan etkilensin*/
+    background-color:indigo;
+}
+
+#p5{ /*5.paragrafa kullandim*/
+    text-align: justify;
+    color: yellow;
+}
+
+.span1{
+    color:chartreuse;
+}
+
+
+
+
+/* 
+body{
+    font-size: 1.3rem;
+    color: darkseagreen;
+    padding: 5rem;
+
+}
+*/
+
+/* bodyden gelen bazı özellikler chillara aktarılmaz. Örneğin: Padding. */
