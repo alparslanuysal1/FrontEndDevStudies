@@ -1,0 +1,26 @@
+/* sadece zıyaret edilmemiş olanların rengını ayarlar */
+a:link{
+    color:chocolate;
+}
+/* sadece zıyaret edilmişlerin rengini değiştirir*/
+a:visited{
+    color:blueviolet;
+}
+
+
+/* Genel olarak tüm linklerin stillerlini değiştirmek için kullanılır */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:aqua;
+    color:red;
+    text-decoration:underline;
+}
+
+/* hover demek uzerine fareyi getirince yap demek*/
+.title:hover{
+    color:red;
+    cursor:crosshair; /* fareyi uzerine getirince artiya cevirir */
+}

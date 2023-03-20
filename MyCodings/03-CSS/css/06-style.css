@@ -1,0 +1,23 @@
+h1.baslik {
+    color:yellow;
+}
+
+.baslik{
+    color: green;
+}
+
+h1.baslik{
+    color:violet ;
+}
+
+*{
+    color:aqua;
+}
+
+h1.baslik {
+    color:orange;
+}
+
+h1.baslik.renk{
+    color:darkviolet;
+}

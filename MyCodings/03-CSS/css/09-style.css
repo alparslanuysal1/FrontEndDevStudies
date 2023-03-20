@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    font-family: 'Lato', sans-serif;  
+}
+
+h1.title{
+    text-decoration:line-through; /* ustunu cizer */
+    font-weight:1000
+}
+
