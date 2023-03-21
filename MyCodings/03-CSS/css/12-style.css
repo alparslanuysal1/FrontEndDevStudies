@@ -1,0 +1,43 @@
+body,html{
+    height:100%;
+    font-size: 2rem; /* body'ye em deegeri verirsek cocugu olan her seyin em degeri orantili olarak buyur */
+}
+
+
+.kutu1{
+    background-color:aqua;
+    width: 3cm; 
+    height: 50%; /* kutu1 yukseklık alamadı çünkü parenti olan body'nin bir 
+    yükseklik değeri yoktur! html tagının da yoktur!
+    Bunun çözümü= 
+    body,html{
+        heigth:100%;
+    }
+    */
+}
+
+.kutu2{
+    background-color:red;
+    width: 300px;
+}
+
+.kutu3{
+    background-color:blue;
+    width:50%; /* kutu3 body'nin 50%'sidir. yuzde parenta bakar.*/
+    height: 300px;
+    font-size: 2rem;
+}
+
+.kutu4{
+    background-color: burlywood;
+    width: 50%;
+    height:50%;
+    font-size: 2rem; /*kutu4 2*2em=4em buyuklugunde oldu. 
+    cunku parenti 2em'di zaten. kendisi de 2em olunca 4 em buyukluk geldi*/
+}
+.kutu5{
+    background-color: chartreuse;
+    width: 50vw; /* kutu5 viewport'un yani browser ekraninin yuzde 50'sidir.*/
+
+    /* body'nin default olarak marjini var. bundan dolayi yesil maviyi gecti */
+}
