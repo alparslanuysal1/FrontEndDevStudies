@@ -1,0 +1,13 @@
+.title{ /* inline olmasina ragmen css de block yazdik ve block oldu */
+     background-color: aqua;
+     display: inline-block;
+     padding: 30px;
+}
+
+em{ /* inline olmasina ragmen css de block yazdik ve block oldu */
+     background-color: red;
+     display: block
+}
+.hidden{
+     display: none;
+}

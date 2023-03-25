@@ -1,0 +1,46 @@
+p.about::first-letter{ /* ilk harf */
+     font-size: 2rem;
+     padding: 15px;
+}
+
+p.about::first-line{ 
+     color:red;
+}
+.list{
+     color:red;
+}
+
+.list li::marker{
+     color: blue;
+     font-size: 2rem;
+}
+
+.title::before{
+     content:"";
+     display: inline-block;
+     width: 5px;
+     height: 25px;
+     background-color: red;
+     margin-right: 10px;
+}
+
+.title::after{
+     content:"";
+     display: inline-block;
+     width: 5px;
+     height: 25px;
+     background-color: red;
+     margin-left: 10px;
+}
+
+.about span::before{
+     content:"{";
+     color: red;
+     font-weight: bold;
+}
+
+.about span::after{
+     content:"}";
+     color: red;
+     font-weight: bold;
+}

@@ -1,0 +1,18 @@
+/* :root ifadesiyle degisken tanimliyoruz */
+:root{
+     --color1: rgb(199, 188, 230);
+     --color2: rgb(106,172,0);
+}
+
+.title{
+     color: var(--color2);
+}
+
+.about{
+     background-color: var(--color1);
+}
+mark{
+     background-color: var(--color2);
+
+color: var(--color1);
+}

@@ -1,0 +1,29 @@
+body{
+     margin:0;
+     font-family: 'Roboto', sans-serif;
+}
+
+a{
+     text-decoration: none;
+}
+
+header{
+     background-color: #454545;
+     text-align: center;
+}
+/* header'in icindeki linkleri sectik */
+header a{
+     color:azure;
+     margin:10px;
+     padding: 5px;
+
+}
+
+header img{
+     width: 15px;
+     height: 17px;
+}
+main section{
+     margin-bottom: 10px;
+     text-align: center;
+}

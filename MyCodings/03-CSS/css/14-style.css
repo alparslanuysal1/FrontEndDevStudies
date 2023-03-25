@@ -1,0 +1,27 @@
+body{
+     font-famiyl:'Roboto',sans-serif;
+}
+
+a{
+     text-decoration: none;
+     color:black;
+     font-weight: 400;
+}
+
+nav.main-menu{
+     background-color: beige;
+}
+.main-menu-ul{
+     list-style-type:"🐫";
+}
+
+/* a tagı inline olduğu için sadece yatay padding alır */
+
+.main-menu-link{
+     padding: 5px;
+ }
+
+.main-menu-link:hover{
+     color:blanchedalmond;
+     background-color: brown;
+}
