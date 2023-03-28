@@ -1,0 +1,17 @@
+.chk-mode{
+     display: none;
+}
+
+.chk-mode:checked + .content{
+     background-color: black;
+     color: azure;
+}
+/* + koyarak bir sonraki class'a etki et diyoruz */
+
+.btn-mode{
+     background-color: black;
+     color:azure;
+     display: inline-block;
+     padding: 5px 10px;
+     cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.logo{
+     text-decoration: none;
+     color:mediumaquamarine;
+     font-size: 1.5rem;
+}
+
+.logo i{
+     font-size: 3rem;
+}
+.logo:hover{
+     color:black;
+}
+
+.firstmenu a:hover, .menu a:hover{
+     font-size: 2rem;
+}
+.firstmenu li, .menu li{
+     list-style-type: none;
+}
+.firstmenu li a{
+     text-decoration: none;
+     color:black;
+}
+
+.firstmenu li i{
+     margin-right: 10px;
+}
+
+.menu li a{
+     text-decoration: none;
+     color:black;
+}
+
+.menu li::before{
+     font: var(--fa-font-solid);
+     content: "\f00c";
+     margin-right: 5px;
+     color: green;
+}

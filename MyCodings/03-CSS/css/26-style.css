@@ -1,0 +1,33 @@
+nav.menu li{
+     color:red;
+}
+/*  Dikkat
+> işareti sadece parentı child ilişkisini gösterir sadece childları seçer torunu seçmez.
+*/
+/* parentı nav menu olan ul ler  hangi li lerin perıntı ise onu boyar */
+/* > işareti çocuğu demektir. Yalnızca bir altındaki etiket etkilenir */
+nav.menu > ul >li{
+     color: green;
+}
+
+nav.menu ul ul > li{
+color:blueviolet;
+}
+/* nav menünün içindeki ul lerin içindeki ul ler hangi li lerin parentı ise, o li leri mor yapar. */
+
+nav.menu ul ul li:last-child{
+     font-weight: bold;
+     text-decoration: underline;
+}
+/* + isareti classdan sonraki ilk p'yi ifade eder */
+nav.menu + p{ 
+     font-size: 1.5rem;
+}
+
+nav.menu ~ p{
+     color: magenta;
+}
+
+nav.menu > ul > li:nht-child(3){
+     color:blueviolet;
+}

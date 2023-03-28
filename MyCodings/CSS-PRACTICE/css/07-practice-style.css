@@ -1,0 +1,42 @@
+body{
+     padding:0;
+     margin:0;
+     background-image: url(../img/WhatsApp\ Image\ 2023-03-27\ at\ 17.50.18.jpeg);
+     background-position: center;
+     background-size: cover;
+}
+
+.baslik{
+     text-align: center;
+     font-size: 3rem;
+     background-color: azure;
+     margin: 3rem 1rem 1rem 1rem;
+}
+.aylar{
+     display:inline-block;
+     background-color: blueviolet;
+     width: 20%;
+     margin-bottom: 3rem;
+     margin-left: 1rem;
+}
+
+div h2{
+     background-color: azure;
+     text-align: center;
+     margin:0;
+}
+
+.mevsimler{
+     display:inline-block;
+     background-color: rgb(227, 227, 153);
+     width: 20%;
+     margin-bottom: 3rem;
+     margin-left: 1rem;
+}
+
+.gunler{
+     display:inline-block;
+     background-color: aquamarine;
+     margin-bottom: 3rem;
+     margin-left: 1rem;
+}
