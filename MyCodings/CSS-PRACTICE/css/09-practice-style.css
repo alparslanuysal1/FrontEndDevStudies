@@ -1,0 +1,38 @@
+body{
+     font-family: 'Delicious Handrawn', cursive;
+     font-family: 'Lato', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     text-align: center;
+}
+
+h1{
+     background-color: darkseagreen;
+     border-radius: 10px;
+     padding: 0.5rem;
+     font-style: italic;
+     text-transform: uppercase;
+}
+
+div.icerik{
+     background-color: bisque;
+     border: 5px solid;
+     border-radius: 10px;
+}
+
+img{
+     width: 100vh;
+     height: auto;
+     border: 3px solid;
+     border-radius: 10px;
+}
+
+.icerik a{
+     text-decoration: none;
+     color:black;
+
+}
+
+.icerik{
+     font-size: 1.2rem;
+}
+

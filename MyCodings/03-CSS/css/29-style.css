@@ -1,0 +1,22 @@
+.custom-checkbox input[type="checkbox"]{
+     display: none;
+}
+
+.custom-checkbox label{
+     cursor:pointer;
+}
+
+.custom-checkbox label::before{
+     content:"";
+     display: inline-block;
+     width: 10px;
+     height: 10px;
+     border: 2px solid red;
+     border-radius: 3px;
+     margin-right: 4px;
+}
+/* costum checkbox ın çocuğu olan ve type=checkbox olan input 
+check edildiğinde labelın öncesinde ki elemanın rengini değiştir */
+.custom-checkbox > input[type="checkbox"]:checked + label::before{
+     background-color:red;
+}
